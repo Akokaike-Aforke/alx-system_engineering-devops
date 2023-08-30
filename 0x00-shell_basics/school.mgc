@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "^SCHOOL" ~/ | xargs file
+find . -type f -exec grep -q '^SCHOOL' {} \; -exec file {} \;
