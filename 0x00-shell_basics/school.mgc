@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -exec grep -q '^SCHOOL' {} \; -exec file --mime-type {} \;
+find . -type f -exec grep -rq '^SCHOOL' {} \; -exec file --mime-type {} \;
