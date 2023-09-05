@@ -1,1 +1,1 @@
-learning shell basics
+this directory is for shell variable expansions
